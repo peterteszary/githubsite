@@ -37,3 +37,14 @@
 .my-drawing:hover {
   transform: scale(1.054) rotate(15deg);
 }
+
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .card-body {
+  background-color: black;
+  color: white;
+}

@@ -2,27 +2,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us | My Cool Website</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
     <link rel="stylesheet" href="custom.css" />
   </head>
   <body>
     <div class="my-bg-photo bg-secondary text-white py-5 text-center shadow">
-      <h1 class="display-4">My Cool Website</h1>
-      <p class="lead mb-0">A super interesting place on the web.</p>
+      <h1 class="display-4">Peter Teszáry</h1>
+      <p class="lead mb-0">This is my personal Github website</p>
     </div>
 
     <div class="container my-custom-container pt-3">
       <nav class="mb-3">
         <ul class="nav nav-tabs justify-content-center">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="animals.html">Animals</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="myFunction()">Toggle dark mode</a>
           </li>
         </ul>
       </nav>
@@ -39,7 +42,8 @@
 
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              I have been creating WordPress websites for years. While I gained a very broad knowledge of WP websites, I had to learn about web development. I liked the thing more and more and I decided I wanted to take it more seriously. The months have passed since then, and as my time allows, I try to broaden this kind of knowledge as well.
+
             </div>
           </div>
         </div>
@@ -53,23 +57,21 @@
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
+              I currently have a strong knowledge of HTML CSS. Also related to WordPress with knowledge of MySQL, MariaDB, php and JavaScript. I would like to take this direction further and get thoroughly acquainted with the technologies such as Vue.js, Node.js, Sass, Less.            </div>
           </div>
         </div>
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                The End
+                (NOT) The End
               </button>
             </h2>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              <hr />
-              <a href="animals.html" class="btn btn-lg btn-success">View Our Animals</a>
+              My further plans include gaining strong Python knowledge. I want to deal with artificial intelligence in the future and based on my current knowledge, Python can be a useful basis for my interest in this direction.              <hr />
+              <a href="projects.html" class="btn btn-lg btn-success">Check Out My Projects</a>
             </div>
           </div>
         </div>
@@ -77,11 +79,18 @@
     </div>
 
     <footer class="border-top mt-5 py-4 text-center text-muted small">
-      <p>&copy; 2020 My Site</p>
+      <p>&copy; 2021 peterteszary</p>
     </footer>
 
     <!-- JavaScript and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+ 
   </body>
 </html>
